@@ -2,6 +2,9 @@
 """
 Created on Fri Sep 16 13:20:49 2022
 
+This script reads all gcs data files from a single folder and concatenates them into a single dataset.
+If you define a list of columns, only these will be included, which helps reduce file size significantly.
+
 @author: nicolas.loose
 """
 import pandas as pd #our data science workhorse
