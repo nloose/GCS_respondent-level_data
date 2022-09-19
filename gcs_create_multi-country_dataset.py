@@ -13,7 +13,6 @@ import os #needed in order to set paths independent of operating system (Mac, Wi
 
 # define folder and file names for input and output
 data_folder = (r"YOUR DATA FOLDER GOES HERE")
-data_folder = (r"C:\Users\nicolas.loose\Documents\data")
 complete_dataset_filename = 'GCS_INT_2022_u2.csv'
 
 # get list of available datasets
